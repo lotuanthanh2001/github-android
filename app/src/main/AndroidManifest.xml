@@ -14,6 +14,18 @@
         android:theme="@style/Theme.GithubAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".bai13.Bai13Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bai11.Bai11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bai12.Bai12Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bai9.Bai9Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

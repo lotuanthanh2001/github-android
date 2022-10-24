@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Github Android</string>
+    <string name="send" />
+    <string name="message" />
+    <string name="subject" />
+    <string name="to" />
 </resources>
