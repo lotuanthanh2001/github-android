@@ -10,6 +10,9 @@ import android.widget.Button;
 import com.example.githubandroid.bai11.Bai11Activity;
 import com.example.githubandroid.bai12.Bai12Activity;
 import com.example.githubandroid.bai13.Bai13Activity;
+import com.example.githubandroid.bai14.Bai14Activity;
+import com.example.githubandroid.bai15.Bai15Activity;
+import com.example.githubandroid.bai16.Bai16Activity;
 import com.example.githubandroid.bai9.Bai9Activity;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +59,33 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, Bai13Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn14 = findViewById(R.id.btnbai14);
+        btn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai14Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn15 = findViewById(R.id.bntbai15);
+        btn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai15Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn16 = findViewById(R.id.bbtbai16);
+        btn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai16Activity.class);
                 startActivity(intent);
             }
         });

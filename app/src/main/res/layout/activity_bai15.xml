@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableRow>
+    <TextView
+
+        android:layout_span="6"
+        android:background="@android:color/holo_orange_light"
+        android:text="dong cot"
+        android:textSize="30dp"/>
+</TableRow>
+    <TableRow>
+        <TextView
+         android:textSize="30dp"
+            android:text="dong cot"/>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+        <TextView
+            android:textSize="30dp"
+            android:text="dong cot"/>
+
+
+
+    </TableRow>
+</TableLayout>
