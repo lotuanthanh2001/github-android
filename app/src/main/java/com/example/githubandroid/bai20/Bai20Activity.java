@@ -25,7 +25,7 @@ public class Bai20Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random random = new Random();
-                int number = random.nextInt();
+                int number = random.nextInt(100);
                 txtNumber.setText(number+"");
             }
         });

@@ -24,6 +24,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".bai21.Bai21Activity"
+            android:exported="false" />
+        <activity
             android:name=".bai20.Bai20Activity"
             android:exported="false" />
         <activity

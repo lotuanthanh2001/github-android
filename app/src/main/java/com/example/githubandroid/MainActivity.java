@@ -16,6 +16,7 @@ import com.example.githubandroid.bai16.Bai16Activity;
 import com.example.githubandroid.bai17.Bai17Activity;
 import com.example.githubandroid.bai19.Bai19Activity;
 import com.example.githubandroid.bai20.Bai20Activity;
+import com.example.githubandroid.bai21.Bai21Activity;
 import com.example.githubandroid.bai9.Bai9Activity;
 
 public class MainActivity extends AppCompatActivity {
@@ -116,6 +117,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, Bai20Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn21 = findViewById(R.id.bntbai21);
+        btn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai21Activity.class);
                 startActivity(intent);
             }
         });
