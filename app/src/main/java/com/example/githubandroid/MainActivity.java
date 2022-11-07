@@ -14,6 +14,7 @@ import com.example.githubandroid.bai14.Bai14Activity;
 import com.example.githubandroid.bai15.Bai15Activity;
 import com.example.githubandroid.bai16.Bai16Activity;
 import com.example.githubandroid.bai17.Bai17Activity;
+import com.example.githubandroid.bai19.Bai19Activity;
 import com.example.githubandroid.bai9.Bai9Activity;
 
 public class MainActivity extends AppCompatActivity {
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn16 = findViewById(R.id.bbtbai16);
+        Button btn16 = findViewById(R.id.bntbai16);
         btn16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn17 = findViewById(R.id.bbtbai17);
+        Button btn17 = findViewById(R.id.bntbai17);
         btn17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +100,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btn19 = findViewById(R.id.bntbai19);
+        btn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Intent intent = new Intent(MainActivity.this, Bai19Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
