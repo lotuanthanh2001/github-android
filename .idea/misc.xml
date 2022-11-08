@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/githubAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.326" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai10.xml" value="0.2758152173913043" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai11.xml" value="0.2758152173913043" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai112.xml" value="0.2758152173913043" />
@@ -16,6 +17,8 @@
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai19.xml" value="0.33" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai20.xml" value="0.25" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai21.xml" value="0.29981884057971014" />
+        <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai22.xml" value="0.29981884057971014" />
+        <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai23.xml" value="0.29981884057971014" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_bai9.xml" value="0.2758152173913043" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Project/githubAndroid/app/src/main/res/layout/activity_main2.xml" value="0.18802083333333333" />

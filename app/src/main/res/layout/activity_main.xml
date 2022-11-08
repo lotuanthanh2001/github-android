@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnbai14" />
 
     <Button
-        android:id="@+id/bntbai16"
+        android:id="@+id/btnbai16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -87,42 +87,51 @@
         app:layout_constraintTop_toBottomOf="@+id/bntbai15" />
 
     <Button
-        android:id="@+id/bntbai17"
+        android:id="@+id/btnbai17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:text="Bai17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bntbai16" />
+        app:layout_constraintTop_toBottomOf="@+id/btnbai16" />
 
     <Button
-        android:id="@+id/bntbai19"
+        android:id="@+id/btnbai19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Bai19"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bntbai17" />
+        app:layout_constraintTop_toBottomOf="@+id/btnbai17" />
 
     <Button
-        android:id="@+id/bntbai20"
+        android:id="@+id/btnbai20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Bai20"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bntbai19" />
+        app:layout_constraintTop_toBottomOf="@+id/btnbai19" />
 
     <Button
-        android:id="@+id/bntbai21"
+        android:id="@+id/btnbai21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Bai21"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bntbai20" />
+        app:layout_constraintTop_toBottomOf="@+id/btnbai20" />
+
+    <Button
+        android:id="@+id/btnbai23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Bai23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai21" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

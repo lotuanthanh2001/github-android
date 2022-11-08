@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.githubandroid.R;
 
@@ -31,14 +32,18 @@ public class Bai21Activity extends AppCompatActivity {
         btnRandom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String chuoi1 =edtNumber1.getText().toString();
-                String chuoi2 = edtNumber2.getText().toString();
+                String chuoi1 =edtNumber1.getText().toString().trim();
+                String chuoi2 = edtNumber2.getText().toString().trim();
+                if(chuoi1.length()==0||chuoi2.length()==0) {
+                    Toast.makeText(Bai21Activity.this,"vui long nhap dung",Toast.LENGTH_SHORT).show();
+                }else {
 //                ép chuỗi
-                int min =Integer.parseInt(chuoi1);
-                int max = Integer.parseInt(chuoi2);
-                Random random = new Random();
-                int number = random.nextInt(max-min+1)+min;
-                txtNumber.setText(String.valueOf(number));//number+""
+                    int min = Integer.parseInt(chuoi1);
+                    int max = Integer.parseInt(chuoi2);
+                    Random random = new Random();
+                    int number = random.nextInt(max - min + 1) + min;
+                    txtNumber.setText(String.valueOf(number));//number+""
+                }
             }
         });
     }

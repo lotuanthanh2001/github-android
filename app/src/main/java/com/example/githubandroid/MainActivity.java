@@ -17,6 +17,7 @@ import com.example.githubandroid.bai17.Bai17Activity;
 import com.example.githubandroid.bai19.Bai19Activity;
 import com.example.githubandroid.bai20.Bai20Activity;
 import com.example.githubandroid.bai21.Bai21Activity;
+import com.example.githubandroid.bai23.Bai23Activity;
 import com.example.githubandroid.bai9.Bai9Activity;
 
 public class MainActivity extends AppCompatActivity {
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn16 = findViewById(R.id.bntbai16);
+        Button btn16 = findViewById(R.id.btnbai16);
         btn16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn17 = findViewById(R.id.bntbai17);
+        Button btn17 = findViewById(R.id.btnbai17);
         btn17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn19 = findViewById(R.id.bntbai19);
+        Button btn19 = findViewById(R.id.btnbai19);
         btn19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn20 = findViewById(R.id.bntbai20);
+        Button btn20 = findViewById(R.id.btnbai20);
         btn20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -120,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn21 = findViewById(R.id.bntbai21);
+        Button btn21 = findViewById(R.id.btnbai21);
         btn21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -129,6 +130,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btn23 = findViewById(R.id.btnbai23);
+        btn23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai23Activity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }
