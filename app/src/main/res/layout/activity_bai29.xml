@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".bai29.Bai29Activity">
 
+    <RadioGroup
+        android:id="@+id/radioGroupthoigian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="96dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonshining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="shining" />
+
+        <RadioButton
+            android:id="@+id/radioButtonafternoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="afternoon" />
+
+        <RadioButton
+            android:id="@+id/radioButtondark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dark" />
+
+        <Button
+            android:id="@+id/btnxacnhanradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xac nhan" />
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

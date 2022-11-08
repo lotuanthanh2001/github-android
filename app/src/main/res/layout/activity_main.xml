@@ -172,5 +172,14 @@
         app:layout_constraintStart_toEndOf="@+id/btnBai12"
         app:layout_constraintTop_toBottomOf="@+id/btnbai28" />
 
+    <Button
+        android:id="@+id/btnbai30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Bai 30"
+        app:layout_constraintStart_toEndOf="@+id/btnBai13"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai29" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
