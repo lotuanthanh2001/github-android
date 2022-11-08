@@ -133,5 +133,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnbai21" />
 
+    <Button
+        android:id="@+id/btnbai26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Bai26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai23" />
+
+    <Button
+        android:id="@+id/btnbai27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Bai27"
+        app:layout_constraintStart_toEndOf="@+id/btnActivity1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnbai28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Bai28"
+        app:layout_constraintStart_toEndOf="@+id/btnBai11"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai27" />
+
+    <Button
+        android:id="@+id/btnbai29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Bai29"
+        app:layout_constraintStart_toEndOf="@+id/btnBai12"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai28" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

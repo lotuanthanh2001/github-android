@@ -18,6 +18,10 @@ import com.example.githubandroid.bai19.Bai19Activity;
 import com.example.githubandroid.bai20.Bai20Activity;
 import com.example.githubandroid.bai21.Bai21Activity;
 import com.example.githubandroid.bai23.Bai23Activity;
+import com.example.githubandroid.bai26.Bai26Activity;
+import com.example.githubandroid.bai27.Bai27Activity;
+import com.example.githubandroid.bai28.Bai28Activity;
+import com.example.githubandroid.bai29.Bai29Activity;
 import com.example.githubandroid.bai9.Bai9Activity;
 
 public class MainActivity extends AppCompatActivity {
@@ -139,6 +143,43 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btn26 = findViewById(R.id.btnbai26);
+        btn26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai26Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn27= findViewById(R.id.btnbai27);
+        btn27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai27Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn28= findViewById(R.id.btnbai28);
+        btn28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Bai28Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn29= findViewById(R.id.btnbai29);
+        btn29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Bai29Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 
