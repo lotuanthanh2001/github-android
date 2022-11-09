@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"/>
 
     <SeekBar
+        android:progressDrawable="@android:color/transparent"
         android:id="@+id/seekbarThree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,6 +34,7 @@
         android:thumb="@drawable/icon_user" />
 
     <SeekBar
+        android:progressDrawable="@android:color/transparent"
         android:id="@+id/seekbartwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,6 +47,7 @@
         android:thumb="@drawable/icon_user" />
 
     <SeekBar
+        android:progressDrawable="@android:color/transparent"
         android:id="@+id/seekbarOne"
         android:layout_width="682dp"
         android:layout_height="18dp"

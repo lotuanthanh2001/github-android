@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GithubAndroid"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,9 +24,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".bai42.Bai42Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bai38.Bai38Activity"
+            android:exported="false" />
+        <activity
             android:name=".bai33.Bai33Activity"
             android:exported="false" />
-
         <activity
             android:name=".bai32.Bai32Activity"
             android:exported="false" />
