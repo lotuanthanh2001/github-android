@@ -181,5 +181,24 @@
         app:layout_constraintStart_toEndOf="@+id/btnBai13"
         app:layout_constraintTop_toBottomOf="@+id/btnbai29" />
 
+    <Button
+        android:id="@+id/btnbai32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:text="Bai32"
+        app:layout_constraintStart_toEndOf="@+id/btnbai14"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai30" />
+
+    <Button
+        android:id="@+id/bntbai33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="CDKT"
+        app:layout_constraintStart_toEndOf="@+id/bntbai15"
+        app:layout_constraintTop_toBottomOf="@+id/btnbai32" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
